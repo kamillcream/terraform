@@ -1,0 +1,17 @@
+# Terraform working data and state can contain infrastructure details or secrets.
+**/.terraform/*
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfvars
+**/*.tfvars.json
+*.tfplan
+tfplan
+*.plan
+.terraform.tfstate.lock.info
+crash.log
+crash.*.log
+
+# Local credentials and private keys.
+.aws/
+*.pem
+*.key
